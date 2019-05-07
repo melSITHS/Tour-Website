@@ -109,7 +109,7 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 @media screen and (max-width: 900px) {
 
 	  .Card-Side-Back{
-  	transform: rotateY(0deg);
+  	transform: rotateY(-180deg);
  }
  .Card-Writing-Back{
 
@@ -132,25 +132,25 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
  	transform: rotateY(0deg);
  }
   .Card_1:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
+ 	transform: rotateY(-180deg);
  }
  .Card_2:hover .Card-Side-Front{
  	transform: rotateY(0deg);
  }
   .Card_2:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
+ 	transform: rotateY(-180deg);
  }
  .Card_3:hover .Card-Side-Front{
  	transform: rotateY(0deg);
  }
   .Card_3:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
+ 	transform: rotateY(-180deg);
  }
  .Card_4:hover .Card-Side-Front{
  	transform: rotateY(0deg);
  }
   .Card_4:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
+ 	transform: rotateY(-180deg);
  }
 
 }
