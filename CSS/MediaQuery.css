@@ -110,6 +110,8 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 
 	  .Card-Side-Back{
   	transform: rotateY(-180deg);
+		  transform: translate(0rem, -20rem);
+		  
  }
  .Card-Writing-Back{
 
@@ -124,7 +126,7 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
  }
   .Card-Writing-Front{
 	flex-direction: column;
-    transform: translate(0rem, 0rem);
+    transform: translate(0rem, -20rem);
  }
  }
 	
