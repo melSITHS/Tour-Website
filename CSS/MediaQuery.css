@@ -1,0 +1,241 @@
+ @media screen  and (max-width: 1025px){
+    .Container{
+    	margin: 0;
+    }
+    .Header_1{
+	height: 50vh;
+	min-width:40rem;
+	max-width: 120rem;
+	background-image: url(Images/Snowy_Bridge.jpeg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Images/photo-1491864483946-1f06be97b71d.jpg);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+.Title-1{
+	 transform: translate(30%, 100%);
+}
+	.Header_2{
+	height: 225vh;
+     }
+     .composition_content_1{
+	background-color: white;
+	color: green;
+	padding: 3rem 1rem;
+	border: .3rem blue;
+	display: flex;
+	max-width: 25rem;
+    flex-direction: column;
+    size: 100%;
+}
+.composition_content_2{
+	background-color: white;
+	color: green;
+	padding: 3rem 1rem;
+	border: .3rem blue;
+	display: flex;
+	max-width: 110rem;
+    flex-direction: column;
+    text-align: center;
+    size: 100%;
+}
+    .composition_photo{
+    	height: 24rem;
+    	width: 20rem;
+    	size: 100%
+    }
+    .composition_photo2{
+    	height: 24rem;
+    	width: 60rem; 
+    	size: 100%;   
+    }
+    .Header_3{
+	height: 400vh;
+	background-image: url(Images/Tokyo.jpg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Images/Tokyo.jpg);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.Card{
+	height: 275vh;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    font-size: 1.3rem;
+}
+.Card-Side{
+    width: 30rem; 
+    height: 66rem;
+ 	color: black;
+ 	backface-visibility: hidden;
+ 	box-shadow: 0 1.5rem 4rem rgba(0,0,0, .15);
+    font-size: 0.5rem;
+ }
+  .Card-Writing-Front{
+  	transform: translate(0, 21rem);
+    font-size: 1.9rem;
+    height: 42rem;
+ }
+ .Card-Writing-Back{
+ 	transform: translate(0, 0rem);
+    font-size: 2rem;
+    height: 66rem;
+    padding: 3rem 0 3rem 0; 
+    width: 30rem;
+    border-style: solid;
+    color: black;
+ }
+ .Cards_Photo{
+ 	 height: 24rem;
+ 	 width: 30rem;
+ }
+	[class^="Card_"]{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+    font-size: 2rem;
+}
+.Icons_2{
+	border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+	z-index: 1;
+	max-width: 80rem;
+		width: 65rem;
+	height: 15rem;
+	margin-right: 1rem;
+}
+}
+@media screen  and (max-width: 800px){
+.Title-1{
+	 transform: translate(30%, 10%);
+}
+.Header_1{
+height: 30vh;
+}
+.Title-1_Content_1{
+	animation-name: none;
+	animation-duration: 0.75s;
+}
+.Title-1_Content_2{
+	animation-name: none;
+	animation-duration: 0.75s;
+}
+.Title-1_Content_3{
+	animation-name: none;
+	animation-duration: 0.75s;
+}
+		}
+
+@media screen  and (max-width: 575px){
+    .Container{
+	margin: 0rem 0rem;
+	margin-bottom: 0rem;
+}
+    .Header_1{
+	height: 35vh;
+	background-image: url(Images/Snowy_Bridge.jpeg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Images/photo-1491864483946-1f06be97b71d.jpg);
+
+}
+.Title-1{
+	 transform: translate(30%, 50%);
+}
+.Title-1_Content_1{
+	font-size: 2.5rem;
+	animation-name: none;
+	animation-duration: 0.75s;
+}
+.Title-1_Content_2{
+    font-size: 2rem;
+	animation-name: none;
+	animation-duration: 0.75s;
+}
+.Title-1_Content_3{
+    font-size: 2rem;
+	animation-name: none;
+	animation-duration: 0.75s;
+}
+	.Header_2{
+	height: 225vh;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+     }
+     .composition{
+     	transform: translate(50%, 10rem);
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+	 width: 20rem;
+}
+.composition_2{
+	transform: translate(25%, 5rem);
+ 	width: 25rem;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-around;
+}
+    .composition_photo{
+    	text-align: center;
+    	height: 21.6rem;
+    }
+        .composition_photo2{
+    	text-align: center;
+    	height: 10rem;
+        width: 25rem;
+    }
+    .Header_3{
+	height: 400vh;
+	background-image: url(Images/Tokyo.jpg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Images/Tokyo.jpg);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.Card{
+	height: 250vh;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    font-size: 1.3rem;
+}
+.Header_3_Title{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	transform: translate(0, 250%);
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+ 
+
+
+body:hover .composition_content:not(:hover){
+	transform: scale(1);
+	opacity: 1;
+}
+
+.Quote_Text{
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 20rem;
+}
+.Icons{
+	border-radius: 50%;
+	z-index: 2;
+}
+.Icons_2{
+	border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+	z-index: 1;
+	max-width: 50rem;
+	width: 40rem;
+	height: 20rem;
+}
+}

@@ -1,0 +1,84 @@
+@keyframes Card_Fix{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes Right_In{
+0%{
+  transform: translate(10rem, 0);
+  opacity: 0;
+  transform: scale(0.0);
+}
+10%{
+	opacity: 0.1;
+	transform: scale(0.1);
+	transform: translate(9rem, 0);
+}
+30%{
+	opacity: 0.3;
+	transform: scale(0.3);
+	transform: translate(7rem, 0);
+}
+50%{
+	opacity: 0.50;
+	transform: scale(0.5);
+	transform: translate(5rem, 0);
+}
+80%{
+	opacity: 0.8;
+	transform: scale(0.8);
+	transform: translate(4rem, 0);
+}
+90%{
+	opacity: 0.9;
+	transform: translate(2rem, 0);
+}
+100%{
+transform: scale(1);
+	opacity: 1;
+	transform: translate(0, 0);
+}
+}
+
+@keyframes Fade_In{
+0%{
+  transform: translate(0, -250%);
+  opacity: 0;
+  transform: scale(0.0);
+}
+10%{
+	opacity: 0.1;
+	transform: scale(0.1);
+	transform: translate(0, -230%);
+}
+30%{
+	opacity: 0.3;
+	transform: scale(0.3);
+	transform: translate(0, -210%);
+}
+50%{
+	opacity: 0.50;
+	transform: scale(0.5);
+	transform: translate(0, -125%);
+}
+80%{
+	opacity: 0.8;
+	transform: scale(0.8);
+	transform: translate(0, -100%);
+}
+90%{
+	opacity: 0.9;
+	transform: translate(0, -50%);
+}
+100%{
+transform: scale(1);
+	opacity: 1;
+	transform: translate(0, 0%);
+}
+}

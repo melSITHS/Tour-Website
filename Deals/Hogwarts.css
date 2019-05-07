@@ -1,0 +1,34 @@
+body{
+	font-weight: 400;
+	text-transform: capitalize;
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4));
+	font-family: 'Laila', serif;
+}
+.Header{
+	text-align: center;
+    position: relative;
+	background-size: cover;		
+    background-position: top; 
+    background-image: url(Deal_Images/Hogwarts_2.jpg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Deal_Images/Hogwarts_2.jpg);
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+.Container{
+	margin: 3rem 3.5rem;
+	margin-bottom: 4rem;
+}
+.Header_Title{
+	width: 36rem;
+	border-radius: 5rem;
+	border: .3rem blue;
+}
+.Header_Text{
+	background-color: white;
+	margin: 0 auto;
+}
+.Header_Date{
+    width: 24rem;
+}
