@@ -112,25 +112,20 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   	transform: rotateY(0deg);
  }
  .Card-Writing-Back{
- 	animation-name: Card_Fix;
- 	animation-duration: 1s; 
-    color: blue;
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	z-index: 0;
+
  	background-color: white;
 	color: blue;
-	display: flex;
-	flex-direction: column;
-   	transition: 0s;
-   	text-align: center;
-   	justify-content: space-between;
-    font-size: 0.9rem;
     transform: translate(0rem, 10rem);
     height: 18rem;
     width: 20rem;
-   
+    .Card-Side-Front{
+ 	background-color: white;
+ 	position: absolute;
+ }
+  .Card-Writing-Front{
+	flex-direction: column;
+    transform: translate(0rem, 8rem);
+ }
  }
 	
 	.Card_1:hover .Card-Side-Front{
