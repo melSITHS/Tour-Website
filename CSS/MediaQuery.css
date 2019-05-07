@@ -124,7 +124,7 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
  }
   .Card-Writing-Front{
 	flex-direction: column;
-    transform: translate(0rem, 8rem);
+    transform: translate(0rem, 0rem);
  }
  }
 	
