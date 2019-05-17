@@ -33,6 +33,7 @@ body{
 	 flex-direction: column;
 	 justify-content: space-around; 
 	 transform: translate(30%, 250%);
+	 	font-size: 6rem;
 }
 .Container{
 	margin: 3rem 3.5rem;
@@ -40,7 +41,7 @@ body{
 }
 .Header_1{
 	height: 100vh;
-	max-width:400rem;
+	width: 100%;
 
 	background-image: url(Images/Snowy_Bridge.jpeg);
 	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
@@ -63,6 +64,7 @@ body{
 	font-family: 'Laila', serif;
 
 }
+
 .Title-1_Content_1{
 	border-radius: 4.5rem;
 	padding: 3rem 1rem;
@@ -76,7 +78,6 @@ body{
 	border-radius: 1rem;
 	padding: .2rem 1rem;
 	font-size: 2.4rem;
-	max-width: 70rem;
 	animation-name: Right_In;
 	animation-duration: 0.5s;
 }
@@ -84,12 +85,12 @@ body{
 	border-radius: 1rem;
     font-size: 2.4rem;
 	padding: .2rem 1rem;
-	max-width: 45rem;
 	animation-name: Right_In;
 	animation-duration: 0.5s;
 }
 .Header_2{
-	height: 150rem;
+	height: 150vh;
+	width: 100%;
 }
 
 .composition{
@@ -106,30 +107,37 @@ body{
 }
 .composition_content{
      text-align: center;
+     width: 30%;
 }
 .composition_content_1{
 	background-color: white;
 	color: green;
 	padding: 3rem 1rem;
 	border: .3rem blue;
+	width: 100%;
 	display: flex;
-	max-width: 30rem;
     flex-direction: column;
 }
 .composition_content_2{
+	transform: translate(-25%, 0);
 	background-color: white;
 	color: green;
 	padding: 3rem 1rem;
 	border: .3rem blue;
 	display: flex;
-	max-width: 110rem;
     flex-direction: column;
     text-align: center;
+    width: 200%;
 }
-    .composition_photo{
-    	height: 36rem;
-    	width: 30rem;
-    }
+.composition_photo{
+    height: 75%;
+    width: 100%;
+}
+.composition_photo2{
+	height: 18rem;
+	width: 200%;
+	transform: translate(-25%, 0);
+}
 body:hover .composition_content:not(:hover){
 	transform: scale(.9);
 	opacity: 0.3;
@@ -140,7 +148,7 @@ body:hover .composition_content:not(:hover){
 	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
 	url(Images/Tokyo.jpg);
     -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
-clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
 }
 .Header_3_Title{
 	display: flex;
@@ -157,7 +165,6 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
     flex-direction: row;
 	justify-content: space-around;
 }
-
  .Card-Side{
     width: 20rem; 
     height: 28rem;
@@ -172,8 +179,8 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
  	left: 0;
  	z-index: 1;
  	transition: all 1s;
- }
-  .Card-Writing-Front{
+}
+.Card-Writing-Front{
     margin-top: 2rem;
     color: blue;
     text-align: center;
@@ -187,8 +194,8 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
     transform: translate(0rem, 8rem);
     font-size: 1rem;
     height: 19rem;
- }
- [class^="Card_"]{
+}
+[class^="Card_"]{
 	perspective: 150rem;
 	-moz-perspective: 150rem;
 	position:relative;
@@ -199,11 +206,11 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
     font-size: 0.9rem;
     transform: translate(-10rem, 25rem);
 }
- .Cards_Photo{
- 	 height: 10rem;
- 	 width: 20rem;
+.Cards_Photo{
+ 	height: 10rem;
+ 	width: 100%;
  }
-  .Card-Side-Back{
+.Card-Side-Back{
  	animation-name: Card_Fix;
  	animation-duration: 1s; 
  	position: absolute;
@@ -216,8 +223,8 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
   	transform: rotateY(-180deg);
     transition: 1s;
     background-color: white;
- }
- .Card-Writing-Back{
+}
+.Card-Writing-Back{
  	animation-name: Card_Fix;
  	animation-duration: 1s; 
     color: blue;
@@ -237,32 +244,15 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
     height: 18rem;
     width: 20rem;
    
- }
- .Card_1:hover .Card-Side-Front{
- 	transform: rotateY(-180deg);
- }
-  .Card_1:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
- }
- .Card_2:hover .Card-Side-Front{
- 	transform: rotateY(-180deg);
- }
-  .Card_2:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
- }
- .Card_3:hover .Card-Side-Front{
- 	transform: rotateY(-180deg);
- }
-  .Card_3:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
- }
- .Card_4:hover .Card-Side-Front{
- 	transform: rotateY(-180deg);
- }
-  .Card_4:hover .Card-Side-Back{
- 	transform: rotateY(0deg);
- }
-
+}
+.Card_1:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_1:hover .Card-Side-Back{  transform: rotateY(0deg);}
+.Card_2:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_2:hover .Card-Side-Back{  transform: rotateY(0deg);}
+.Card_3:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_3:hover .Card-Side-Back{  transform: rotateY(0deg);}
+.Card_4:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_4:hover .Card-Side-Back{  transform: rotateY(0deg);}
 
 .Header_4{
   margin-left: auto;
@@ -299,14 +289,14 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
 	border-bottom-left-radius: 15%;
     border-top-left-radius: 15%;
 	z-index: 1;
-    max-width: 60%;
-    max-height: 20rem;
+    width: 100%;
+    height: 15vh;
 }
 .Quote_Text_1{
     text-align: center;
 }
 .Quote_Text_2{ 
-    max-width: 1024rem;
+    width: 80%;
 }
 
 
@@ -324,3 +314,5 @@ clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
 
 
   
+
+
