@@ -148,7 +148,7 @@
     }
 }
 
-@media screen  and (max-width: 800px){
+@media screen  and (max-width: 1080px){
     .Container{	
         margin: 0rem 0rem;	
         margin-bottom: 0rem;}
@@ -179,7 +179,7 @@
         animation-duration: 0.75s;
     }
 	.Header_2{
-        height: 225vh;
+        height: 175vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
