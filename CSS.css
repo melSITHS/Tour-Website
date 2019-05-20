@@ -1,0 +1,318 @@
+:root{
+--color-primary: #B0E0E6;
+
+
+--default-font-size:1.6rem;
+}
+
+html{
+	font-size: 62.5%;
+
+}
+*, *::before, *::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+	/*/font-family: "Lato, sans-serif";/*/
+	font-weight: 400;
+	text-transform: capitalize;
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4));
+	font-family: 'Laila', serif;
+}
+[class^="Header_"]{
+	position: relative;
+	background-size: cover;		
+    background-position: top; 
+}
+.Title-1{
+	position: absolute;
+      display: flex;
+	 flex-direction: column;
+	 justify-content: space-around; 
+	 transform: translate(30%, 250%);
+	 	font-size: 6rem;
+}
+.Container{
+	margin: 3rem 3.5rem;
+	margin-bottom: 4rem;
+}
+.Header_1{
+	height: 100vh;
+	width: 100%;
+
+	background-image: url(Images/Snowy_Bridge.jpeg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Images/photo-1491864483946-1f06be97b71d.jpg);
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 0 0);
+}
+.Title-1_SmallText{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+}
+[class^="Title-1_Content_"]{
+	background-color: #778899;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	top: 80%;
+	left: 60%;
+	font-family: 'Laila', serif;
+
+}
+
+.Title-1_Content_1{
+	border-radius: 4.5rem;
+	padding: 3rem 1rem;
+	border: .3rem blue;
+	margin: 0 auto;
+	font-size: 5.0rem;
+	animation-name: Fade_In;
+	animation-duration: 0.75s;
+}
+.Title-1_Content_2{
+	border-radius: 1rem;
+	padding: .2rem 1rem;
+	font-size: 2.4rem;
+	animation-name: Right_In;
+	animation-duration: 0.5s;
+}
+.Title-1_Content_3{
+	border-radius: 1rem;
+    font-size: 2.4rem;
+	padding: .2rem 1rem;
+	animation-name: Right_In;
+	animation-duration: 0.5s;
+}
+.Header_2{
+	height: 150vh;
+	width: 100%;
+}
+
+.composition{
+	 transform: translate(0, 25rem);
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+}
+.composition_2{
+	 transform: translate(0, 25rem);
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+}
+.composition_content{
+     text-align: center;
+     width: 30%;
+}
+.composition_content_1{
+	background-color: white;
+	color: green;
+	padding: 3rem 1rem;
+	border: .3rem blue;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+}
+.composition_content_2{
+	transform: translate(-25%, 0);
+	background-color: white;
+	color: green;
+	padding: 3rem 1rem;
+	border: .3rem blue;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200%;
+}
+.composition_photo{
+    height: 75%;
+    width: 100%;
+}
+.composition_photo2{
+	height: 18rem;
+	width: 200%;
+	transform: translate(-25%, 0);
+}
+body:hover .composition_content:not(:hover){
+	transform: scale(.9);
+	opacity: 0.3;
+}
+.Header_3{
+	height: 100rem;
+	background-image: url(Images/Tokyo.jpg);
+	background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
+	url(Images/Tokyo.jpg);
+    -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
+}
+.Header_3_Title{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	transform: translate(0, 150%);
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+    color: white;
+}
+.Card{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+}
+ .Card-Side{
+    width: 20rem; 
+    height: 28rem;
+ 	color: black;
+ 	backface-visibility: hidden;
+ 	box-shadow: 0 1.5rem 4rem rgba(0,0,0, .15);
+ }
+ .Card-Side-Front{
+ 	background-color: white;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 1;
+ 	transition: all 1s;
+}
+.Card-Writing-Front{
+    margin-top: 2rem;
+    color: blue;
+    text-align: center;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 1;
+ 	background-color: white;
+	display: flex;
+	flex-direction: column;
+    transform: translate(0rem, 8rem);
+    font-size: 1rem;
+    height: 19rem;
+}
+[class^="Card_"]{
+	perspective: 150rem;
+	-moz-perspective: 150rem;
+	position:relative;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+    font-size: 0.9rem;
+    transform: translate(-10rem, 25rem);
+}
+.Cards_Photo{
+ 	height: 10rem;
+ 	width: 100%;
+ }
+.Card-Side-Back{
+ 	animation-name: Card_Fix;
+ 	animation-duration: 1s; 
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 0;
+ 	transition: all 1s;
+	display: flex;
+    flex-direction: column;
+  	transform: rotateY(-180deg);
+    transition: 1s;
+    background-color: white;
+}
+.Card-Writing-Back{
+ 	animation-name: Card_Fix;
+ 	animation-duration: 1s; 
+    color: blue;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 0;
+ 	background-color: white;
+	color: blue;
+	display: flex;
+	flex-direction: column;
+   	transition: 0s;
+   	text-align: center;
+   	justify-content: space-between;
+    font-size: 0.9rem;
+    transform: translate(0rem, 5rem);
+    height: 18rem;
+    width: 20rem;
+   
+}
+.Card_1:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_1:hover .Card-Side-Back{  transform: rotateY(0deg);}
+.Card_2:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_2:hover .Card-Side-Back{  transform: rotateY(0deg);}
+.Card_3:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_3:hover .Card-Side-Back{  transform: rotateY(0deg);}
+.Card_4:hover .Card-Side-Front{ transform: rotateY(-180deg);}
+.Card_4:hover .Card-Side-Back{  transform: rotateY(0deg);}
+
+.Header_4{
+  margin-left: auto;
+  margin-right: auto;
+}
+.Person_1{
+	  margin-left: auto;
+  margin-right: auto;
+   width: 75%;
+}
+.Person_2{
+	  margin-left: auto;
+  margin-right: auto;
+   width: 75%;
+}
+.Quote{
+	transform: translate( 5% , -115%);
+	display: flex;
+	flex-direction: row;
+
+}
+.Quote_Text{
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+}
+.Icons{
+	border-radius: 50%;
+	z-index: 2;
+      width: 10rem; 
+	 height: 10rem;
+}
+.Icons_2{
+	border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+	z-index: 1;
+    width: 100%;
+    height: 15vh;
+}
+.Quote_Text_1{
+    text-align: center;
+}
+.Quote_Text_2{ 
+    width: 80%;
+}
+
+
+.Remember{
+	color: #05B8CC;
+}
+.Warning{
+	color: #ff0000;
+}
+.Default{
+	color:#1C7E00;
+}
+
+
+
+
+  
+
+
