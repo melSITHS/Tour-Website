@@ -8,7 +8,7 @@
     }
      .Container{margin : 0;}
      .Header_1{
-	   height: 60vh;;
+	   height: 70vh;;
 	   width: 100%;
 	   background-image: url(Images/Snowy_Bridge.jpeg);
 	   background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
@@ -16,6 +16,10 @@
 	   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
+    body:hover .composition_content:not(:hover){
+    transform: scale(1);
+     opacity: 1;
+}
     .Title-1{  
       transform: translate(30%, 100%);
       width: 50%;
@@ -83,6 +87,7 @@
        height: 110%;
        padding: 3rem 0 3rem 0; 
        transform: rotateY(0deg);
+       transform: translate(0, 64rem);
        width: 100%;
        color: black;
     }
