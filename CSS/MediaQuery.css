@@ -31,11 +31,11 @@
     .composition_content_1{ width: 100%;}
     .composition_content_2{ width: 200%;}
     .composition_photo{
-    	  height: 24rem;
+    	  height: 100%;
     	  width: 100%;
     }
     .composition_photo2{
-    	  height: 24rem;
+    	  height: 100%;
         width: 200%;  
     }
     .Header_3{
