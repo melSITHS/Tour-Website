@@ -31,15 +31,15 @@
     .composition_content_1{ width: 100%;}
     .composition_content_2{ width: 200%;}
     .composition_photo{
-    	  height: 24rem;
+    	  height: 100%;
     	  width: 100%;
     }
     .composition_photo2{
-    	  height: 24rem;
+    	  height: 100%;
         width: 200%;  
     }
     .Header_3{
-       height: 1000vh;
+       height: 1050vh;
 	     background-image: url(Images/Tokyo.jpg);
 	     background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
 	     url(Images/Tokyo.jpg);
