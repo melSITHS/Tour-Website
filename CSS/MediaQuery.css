@@ -177,7 +177,7 @@
         animation-duration: 0.75s;
     }
 	.Header_2{
-        height: 100vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -225,7 +225,7 @@
     }
     .composition_photo{
         transform: translate(0, 0rem);
-    	height: 36rem;
+    	height: 100%;
     	width: 100%;
     }
     .composition_photo2{
@@ -287,7 +287,7 @@
        animation-duration: 1s; 
     }
     .Cards_Photo{
- 	   height: 48rem;
+ 	   height: 100%;
        width: 100%
     }
 	[class^="Card_"]{
