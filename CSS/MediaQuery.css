@@ -152,7 +152,7 @@
         margin: 0rem 0rem;	
         margin-bottom: 0rem;}
     .Header_1{	
-        height: 35vh;	
+        height: 20vh;	
         background-image: url(Images/Snowy_Bridge.jpeg);	
         background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , 
         rgba(176, 224, 230, 0.4)),	url(Images/photo-1491864483946-1f06be97b71d.jpg);
@@ -178,7 +178,7 @@
         animation-duration: 0.75s;
     }
 	.Header_2{
-        height: 175vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -234,7 +234,7 @@
       transform: translate(0, 0);
     }
    .Header_3{
-	   height: 725vh;
+	   height: 600vh;
 	   background-image: url(Images/Tokyo.jpg);
 	   background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
 	   url(Images/Tokyo.jpg);
@@ -243,7 +243,7 @@
     }
 
     .Card{
-	   height: 525vh;
+	   height: 450vh;
      font-size: 1.3rem;
      transform: translate(0, 0);
     }
