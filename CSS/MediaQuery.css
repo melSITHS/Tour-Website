@@ -147,7 +147,7 @@
     }
 }
 
-@media screen  and (max-width: 1019px){
+@media screen  and (max-device-width: 575px){
     .Container{	
         margin: 0rem 0rem;	
         margin-bottom: 0rem;}
@@ -264,7 +264,7 @@
        border: none;
     }
     .Card-Writing-Front{
-  	   transform: translate(0, 36rem);
+  	   transform: translate(0, 21rem);
        font-size: 1.9rem;
        height: 42rem;
     }
