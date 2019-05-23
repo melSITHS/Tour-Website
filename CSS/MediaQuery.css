@@ -148,7 +148,7 @@
     }
 }
 
-@media screen  and (max-height: 575px){
+@media screen  and (max-width: 829px){
     .Container{	
         margin: 0rem 0rem;	
         margin-bottom: 0rem;}
