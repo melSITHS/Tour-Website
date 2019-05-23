@@ -73,9 +73,9 @@
        border: none;
     }
     .Card-Writing-Front{
-  	   transform: translate(0, 80rem);
+  	   transform: translate(0, 64rem);
        font-size: 2.5rem;
-       height: 20rem;
+       height: 30rem;
     }
     .Card-Side-Back{
        animation-name: none;
@@ -92,7 +92,8 @@
        width: 100%;
        border-style: none;
        color: black;
-       transform: translate(0, 108rem);
+	    font-size: 2.5rem;
+       transform: translate(0, 120rem);
         animation-name: none;
        animation-duration: 1s; 
     }
