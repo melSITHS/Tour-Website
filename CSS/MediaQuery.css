@@ -282,7 +282,7 @@
     .Card-Writing-Back{
        width: 100%;
        border-style: none;
-       color: white;
+       color: black;
        transform: translate(0, 107rem);
         animation-name: none;
        animation-duration: 1s; 
