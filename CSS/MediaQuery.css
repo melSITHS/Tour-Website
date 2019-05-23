@@ -1,4 +1,3 @@
-
  @media screen  and (max-width: 1500px){
     body{
       overflow-x: hidden;
@@ -35,11 +34,11 @@
     	  width: 100%;
     }
     .composition_photo2{
-    	  height: 24rem;
+    	  height: 100%;
         width: 200%;  
     }
     .Header_3{
-       height: 800vh;
+       height: 1000vh;
 	     background-image: url(Images/Tokyo.jpg);
 	     background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
 	     url(Images/Tokyo.jpg);
@@ -47,7 +46,7 @@
        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
     .Card{
-	     height: 725vh;
+	     height: 750vh;
        display: flex;
        flex-direction: column;
 	     justify-content: space-between;
@@ -60,46 +59,37 @@
     }
     .Card_2{
         width: 100%;
-	 }
-    .Card_3{width: 100%; }
-    .Card_4{width: 100%; }
+    }
+    .Card_3{width: 100%;}
+    .Card_4{width: 100%;}
     .Card-Side{
-       width: 100%; 
-       height: 66rem;
+       width: 100%;
+       height: 100%;
  	     color: black;
  	     backface-visibility: hidden;
  	     box-shadow: 0 0rem 0rem rgba(0,0,0, .15);
        font-size: 0.5rem;
-       border: none;
-    }
-    .Card-Writing-Front{
-  	   transform: translate(0, 64rem);
-       font-size: 2.5rem;
-       height: 40rem;
+       transform: translate(0, 0);
     }
     .Card-Side-Back{
-       animation-name: none;
-       animation-duration: 1s; 
-       position: absolute;
-       display: flex;
-       flex-direction: column;
-       transition: 1s;
-       background-color: white;
-       animation-name: none;
-       animation-duration: 1s; 
-       transform: rotateY(0deg);
+             transform: rotateY(0deg);
+    }
+    .Card-Writing-Front{
+  	   transform: translate(0, 32rem);
+       font-size: 1.9rem;
+       height: 70%;
+       width: 100%;
     }
     .Card-Writing-Back{
+       font-size: 2rem;
+       height: 100%;
+       padding: 3rem 0 3rem 0; 
+       transform: rotateY(0deg);
+       transform: translate(0, 64rem);
        width: 100%;
-       height: 30rem;
-       border-style: none;
        color: black;
-	    font-size: 2.5rem;
-       transform: translate(0, 100rem);
-        animation-name: none;
-       animation-duration: 1s; 
     }
-  
+
     .Card_1:hover .Card-Side-Front{ transform: rotateY(0deg);}
     .Card_1:hover .Card-Side-Back{  transform: rotateY(0deg);}
     .Card_2:hover .Card-Side-Front{ transform: rotateY(0deg);}
@@ -117,7 +107,7 @@
        display: flex;
        flex-direction: column;
 	     justify-content: space-around;
-       font-size: 3rem;
+       font-size: 2rem;
        transform: translate(0, 0);
     }
     .Icons{
@@ -187,7 +177,7 @@
         animation-duration: 0.75s;
     }
 	.Header_2{
-        height: 250vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -209,7 +199,7 @@
     }
     .composition_photo2{
     	text-align: center;
-    	height: 20rem;
+    	height: 10rem;
         width: 100%;
     }
     .composition_content{ 
@@ -235,7 +225,7 @@
     }
     .composition_photo{
         transform: translate(0, 0rem);
-    	height: 80%;
+    	height: 36rem;
     	width: 100%;
     }
     .composition_photo2{
