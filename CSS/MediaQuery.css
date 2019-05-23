@@ -75,7 +75,7 @@
     .Card-Writing-Front{
   	   transform: translate(0, 64rem);
        font-size: 2.5rem;
-       height: 50rem;
+       height: 40rem;
     }
     .Card-Side-Back{
        animation-name: none;
@@ -90,6 +90,7 @@
     }
     .Card-Writing-Back{
        width: 100%;
+       height: 30rem;
        border-style: none;
        color: black;
 	    font-size: 2.5rem;
