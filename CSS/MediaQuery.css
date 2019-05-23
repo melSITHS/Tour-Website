@@ -39,7 +39,7 @@
         width: 200%;  
     }
     .Header_3{
-       height: 1000vh;
+       height: 800vh;
 	     background-image: url(Images/Tokyo.jpg);
 	     background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
 	     url(Images/Tokyo.jpg);
@@ -47,7 +47,7 @@
        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
     .Card{
-	     height: 750vh;
+	     height: 725vh;
        display: flex;
        flex-direction: column;
 	     justify-content: space-between;
