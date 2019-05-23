@@ -234,7 +234,7 @@
       transform: translate(0, 0);
     }
    .Header_3{
-	   height: 425vh;
+	   height: 375vh;
 	   background-image: url(Images/Tokyo.jpg);
 	   background-image: linear-gradient(to bottom right, rgba(211,211,211, 0.5) , rgba(176, 224, 230, 0.4)),
 	   url(Images/Tokyo.jpg);
@@ -243,7 +243,7 @@
     }
 
     .Card{
-	   height: 400vh;
+	   height: 300vh;
      font-size: 1.3rem;
      transform: translate(0, 0);
     }
@@ -288,7 +288,7 @@
        animation-duration: 1s; 
     }
     .Cards_Photo{
- 	   height: 24rem;
+ 	   height: 100%;
        width: 100%
     }
 	[class^="Card_"]{
@@ -319,7 +319,7 @@
 	     border-bottom-left-radius: 0%;
        border-top-left-radius: 0%;
 	     z-index: 1;
-       height: 100%;
+       height: 50%;
        width: 110%;
     }
 }
