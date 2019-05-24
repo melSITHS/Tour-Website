@@ -303,8 +303,8 @@
     }
 
     .Quote_Text{
-	   display: flex;
-	   flex-direction: column;
+       display: flex;
+       flex-direction: column;
        text-align: center;
        font-size: 1rem;
        width: 80%;
@@ -314,9 +314,9 @@
 	   z-index: 2;
     }
     .Icons_2{
-	     border-bottom-left-radius: 0%;
+       border-bottom-left-radius: 0%;
        border-top-left-radius: 0%;
-	     z-index: 1;
+       z-index: 1;
        height: 30rem;
        width: 110%;
     }
