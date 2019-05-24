@@ -75,17 +75,17 @@
              transform: rotateY(0deg);
     }
     .Card-Writing-Front{
-  	   transform: translate(0, 32rem);
+  	   transform: translate(0, 48rem);
        font-size: 1.9rem;
-       height: 70%;
+       height: 30rem;
        width: 100%;
     }
     .Card-Writing-Back{
        font-size: 2rem;
-       height: 100%;
+       height: 40rem;
        padding: 3rem 0 3rem 0; 
        transform: rotateY(0deg);
-       transform: translate(0, 64rem);
+       transform: translate(0, 108rem);
        width: 100%;
        color: black;
     }
